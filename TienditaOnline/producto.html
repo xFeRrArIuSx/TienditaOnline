@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Assassins Creed Iv - Black Flag</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/1.jpg" alt="Imagen del Producto">
+
+            <div class="camisa__contenido" >
+                
+                <p>Assassin's Creed IV: Black Flag es un videojuego de acción y aventura desarrollado por Ubisoft Montreal y lanzado en 2013. El juego es la sexta entrega principal de la serie Assassin's Creed y sigue la historia de un joven pirata llamado Edward Kenway, quien se involucra en el conflicto entre los Asesinos y los Templarios.
+
+                    Ambientado principalmente en el Caribe durante la Edad de Oro de la Piratería, el juego cuenta con la exploración de un mundo abierto y combate naval como elementos clave de la jugabilidad. Los jugadores pueden personalizar su barco, el Jackdaw, y participar en batallas navales épicas.</p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Edición --</option>
+                        <option>Basic</option>
+                        <option>Gold</option>
+                        <option>Delux</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Game Hub Store - Todos los derechos Reservados 2023.</p>
+    </footer>
+    
+</body>
+</html>

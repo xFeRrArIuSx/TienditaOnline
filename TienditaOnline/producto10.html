@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>The Evil Within</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/11.jpg" alt="Imagen del Producto">
+
+            <div class="camisa__contenido">
+                <p>The Evil Within es un videojuego de survival horror desarrollado por Tango Gameworks y publicado por Bethesda Softworks en 2014. La trama del juego sigue al detective Sebastian Castellanos, quien se adentra en un mundo de pesadilla después de investigar un caso en una institución mental.
+
+                    El juego presenta una atmósfera oscura y siniestra, con una jugabilidad centrada en la exploración, el combate y la resolución de acertijos. Los jugadores deben luchar contra una variedad de enemigos, incluyendo monstruos grotescos y psicópatas peligrosos, mientras buscan recursos y mejoras para su equipo para sobrevivir en este mundo de terror.</p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Edición --</option>
+                        <option>Basic</option>
+                        <option>Gold</option>
+                        <option>Delux</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Game Hub Store - Todos los derechos Reservados 2022.</p>
+    </footer>
+    
+</body>
+</html>

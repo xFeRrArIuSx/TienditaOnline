@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Call Of Duty - Black Ops 3</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/2.jpg" alt="Imagen del Producto">
+
+            <div class="camisa__contenido">
+                <p>Call of Duty: Black Ops III es un videojuego de disparos en primera persona lanzado en 2015 por Treyarch y distribuido por Activision. Es el duodécimo título de la serie Call of Duty y el tercer juego de la serie Black Ops.
+
+                    La trama del juego se desarrolla en el año 2065, donde el mundo está en una situación caótica debido a la tecnología y la manipulación genética avanzada. Los jugadores toman el control de un soldado mejorado cibernéticamente, y se sumergen en una trama llena de conspiraciones, misterios y peligros. Además del modo historia, el juego cuenta con un modo multijugador en línea y un modo cooperativo de zombies.</p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Edición --</option>
+                        <option>Basic</option>
+                        <option>Gold</option>
+                        <option>Delux</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Game Hub Store - Todos los derechos Reservados 2022.</p>
+    </footer>
+    
+</body>
+</html>
